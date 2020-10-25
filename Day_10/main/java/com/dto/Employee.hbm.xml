@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 21 Oct, 2020 7:10:49 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.dto.Employee" table="employee">
+        <id name="empId" type="int">
+            <column name="empId" />
+        </id>
+        <property name="empName" type="java.lang.String">
+            <column name="empName" />
+        </property>
+        <property name="basicSalary" type="float">
+            <column name="basicSalary" />
+        </property>
+        <property name="dept" type="java.lang.String">
+            <column name="dept" />
+        </property>
+        <property name="joinDate" type="java.sql.Date">
+            <column name="joinDate" />
+        </property>
+    </class>
+</hibernate-mapping>
