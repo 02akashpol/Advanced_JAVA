@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 19 Oct, 2020 10:54:58 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.dto.Student" table="student">
+        <id name="rno" type="int">
+            <column name="rno" />
+        </id>
+        <property name="stdName" type="java.lang.String">
+            <column name="stdName" />
+        </property>
+        <property name="fee" type="float">
+            <column name="fee" />
+        </property>
+    </class>
+</hibernate-mapping>
