@@ -29,7 +29,6 @@ public class Main {
 		tr.commit();
 		s.close();
 		sf.close();
-	
 	} 
 
 }
